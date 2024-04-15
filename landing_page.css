@@ -1,3 +1,7 @@
 .header{
     width: 800px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: flex-end;
 }
+
