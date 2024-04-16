@@ -1,33 +1,103 @@
+
 .header{
+    height: 100px;
+    width: 1400px;
+    background-color: #aac4e9;
+    display: flex;
+    justify-content: flex-end;
+    align-content: space-between;
+}
+
+.hero{
     height: 200px;
     width: 1400px;
     background-color: #1F2937;
     display: flex;
-    justify-content: flex-end;
-    font-size: 18px;
-}
-
-.hero{
-    height: 300px;
-    width: 1400px;
-    background-color: #1F2937;
-    display: flex;
     flex-direction: column;
+    justify-content: center;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
 #hero-main{
+    margin-top: 50px;
     font-size: 48px;
     font-weight: extra-bold;
     color: #F9FAF8;
+    padding-left: 16px;
 }
 
 #hero-second{
     font-size: 18px;
-    color: #F9FAF8;
+    color: #E5E7EB;
+    padding-left: 16px;
+    margin-bottom: 20px;
+}
+
+.card{
+    height: 300px;
+    width: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float:left;
+}
+
+.container{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 18px;
 }
 
 img{
-    height: auto;
-    width: 300px;
+    height: 100px;
+    width: 50%;
+}
+
+.signup{
+    height: 100px;
+    width: 1400px;
+    background-color: aliceblue;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#Update{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding-left: 50px;
+}
+
+#Update-second{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding-left: 50px;
+}
+
+#button {
+    background-color: #aac4e9;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    border: none;
+    width: 10%;
+    font-size: 16px;
+    padding: 10px 24px;
+    text-align: center;
+    display:inline-block;
+}
+
+.footer{
+    height: 100px;
+    width: 1400px;
+    background-color: #1F2937;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
